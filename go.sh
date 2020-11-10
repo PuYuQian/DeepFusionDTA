@@ -1,0 +1,1 @@
+python run_experiments.py --num_windows 32 --seq_window_lengths 8 12 --smi_window_lengths 4 8 --batch_size 256 --num_epoch 100 --max_seq_len 1200 --max_smi_len 85 --max_smi_stru_len 60 --dataset_path 'data/davis/' --problem_type 1 --is_log 1 --log_dir 'logs/'
